@@ -1,32 +1,44 @@
-# React + TypeScript + Vite
+# StockFlow 📦
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Sistema web de controle de estoque desenvolvido como projeto de portfólio para praticar conceitos de desenvolvimento Front-end.
 
-Currently, two official plugins are available:
+## 🚀 Sobre o projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+O StockFlow permite visualizar e gerenciar produtos de um estoque de forma simples e intuitiva.
 
-## React Compiler
+O projeto foi desenvolvido com foco em organização de componentes, responsividade, manipulação de dados e criação de uma interface funcional.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the Oxlint configuration
+- Dashboard com indicadores do estoque
+- Cadastro de novos produtos
+- Exclusão de produtos
+- Busca por nome
+- Filtro por categoria
+- Identificação de produtos com estoque baixo
+- Cálculo do valor total do estoque
+- Layout responsivo
+- Interface adaptada para desktop e dispositivos menores
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 🛠️ Tecnologias utilizadas
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- React
+- TypeScript
+- Vite
+- HTML5
+- CSS3
+- Git e GitHub
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## 📚 Objetivo
+
+Este projeto faz parte da minha jornada de transição para a área de tecnologia e foi desenvolvido para colocar em prática conhecimentos adquiridos durante a graduação em Análise e Desenvolvimento de Sistemas.
+
+## 👩‍💻 Desenvolvido por
+
+**Thayná dos Santos Campi**
+
+Estudante de Análise e Desenvolvimento de Sistemas, em transição para a área de tecnologia.
+
+---
+
+⭐ Projeto desenvolvido para fins de estudo e portfólio.
